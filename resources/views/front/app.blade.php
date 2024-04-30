@@ -33,28 +33,22 @@
         }
 
         .rb-light {
-            font-family: RB-light;
+            font-family: RB-light, sans-serif;
         }
 
         .rb-bold {
-            font-family: RB-bold;
+            font-family: RB-bold, sans-serif;
         }
 
         .kufi-bold {
-            font-family: DroidKufi-Bold;
+            font-family: DroidKufi-Bold, sans-serif;
         }
 
         .riyad-bank-Regular {
-            font-family: riyad-bank-Regular;
+            font-family: riyad-bank-Regular, sans-serif;
         }
     </style>
     @vite('resources/css/app.css')
-
-    <link rel="stylesheet" href="{{asset('fonts/4_F3.ttf')}}">
-    <link rel="stylesheet" href="{{asset('fonts/4_F4.ttf')}}">
-    <link rel="stylesheet" href="{{asset('fonts/DroidKufi-Bold.ttf')}}">
-    <link rel="stylesheet" href="{{asset('fonts/DroidKufi-Regular.ttf')}}">
-    <link rel="stylesheet" href="{{asset('fonts/riyad-bank-Regular.ttf')}}">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
             integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
