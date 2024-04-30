@@ -4,12 +4,12 @@
     <div class="home">
 
         {{--Hero section start--}}
-        <div class="hero-section pt-[280px] w-full h-[75vh] bg-bottom bg-cover bg-no-repeat "
+        <div class="hero-section pt-[280px] w-full md:h-[75vh] bg-bottom bg-cover bg-no-repeat"
              style="background-image: url({{asset('images/hero-bg.png')}})">
-            <div class="container px-10 relative w-full h-full ">
+            <div class="container md:px-10 px-5 relative w-full h-full ">
 
                 {{--Hero slider start--}}
-                <div class="hero-slider-wrapper w-full">
+                <div class="hero-slider-wrapper w-full h-[45vh] overflow-hidden">
                     <div class="owl-carousel w-full hero-slider">
                         <div class="slider-item w-full bg-cover h-[435px] rounded-t-[50px]"
                              style="background-image: url({{asset('images/slider-1.png')}})">
@@ -34,10 +34,10 @@
 
 
                 <div
-                    class="bg-theme-purple z-10 absolute text-end ps-10 pe-28 py-6 left-0 end-[50px] rounded-[16px] bottom-[-40px]">
-                    <div class="font-bold text-white text-[20px]">مطلوب معلمة رياضات لقسم المتوسط</div>
+                    class="bg-theme-purple z-10 relative text-end ps-10 md:pe-20 pe-10 md:scale-100 scale-105 py-6 rounded-[16px] bottom-[40px] md:left-[-40px] md:block grid gap-5">
+                    <div class="font-bold text-white md:text-[20px]">مطلوب معلمة رياضات لقسم المتوسط</div>
                     <div
-                        class="bg-[#B5D56A] text-[#2E84B7] fw-bold text-[28px] px-6 py-[10px] rounded-[16px] absolute end-[-30px] top-[10px]">
+                        class="bg-[#B5D56A] text-[#2E84B7] fw-bold md:text-[28px] px-6 py-[10px] rounded-[16px] md:absolute md:end-[-70px] top-[10px]">
                         الجديد
                     </div>
                 </div>
@@ -46,13 +46,13 @@
         {{--Hero section end  --}}
 
         {{--Description section start--}}
-        <div class="container px-10 my-20">
-            <div class="grid xl:grid-cols-2 gap-10">
+        <div class="container md:px-10 px-5 md:my-20 my-10">
+            <div class="grid xl:grid-cols-2 xl:gap-10 gap-5">
                 <div class="">
                     <img class="rounded-[42px] w-full" src="{{asset('images/image-1.png')}}" alt="img1">
                 </div>
 
-                <p class="text-end xl:text-[20px] font-bold xl:mt-10 mt-5">
+                <p class="text-end xl:text-[20px] font-bold xl:mt-10">
                     الرحمن، الذي علم القرآن وخلق الإنسان، منحه نعمة البيان التي تعزز مكانته في الدنيا
                     والآخرة وتظهر عظمة الخالق في تعليمه أساليب اللغة والتعبير. البيان يجمع بين
                     القدرات اللغوية لترجمة المعارف بوضوح، السلوكية لعكس شخصية متميزة، العلمية
@@ -66,17 +66,17 @@
         {{--Description section end  --}}
 
         {{--Facilites sections start--}}
-        <div class="container my-20">
-            <div class="grid lg:grid-cols-3 mt-20">
+        <div class="container md:my-20 xl:px-0 px-10">
+            <div class="grid lg:grid-cols-3 md:mt-20 mt-10">
                 <div
-                    class="grid justify-items-center align-items-center bg-primary px-20 py-5 lg:py-8  text-center rounded-[20px] text-white">
+                    class="grid justify-items-center align-items-center bg-primary sm:px-20 px-5 py-5 lg:py-8  text-center rounded-[20px] text-white">
                     <div class="icon mb-4"><img src="{{asset('images/home/diamond.svg')}}" alt="diamond"></div>
                     <h4 class="text-[29px] font-semibold mb-5">قيمنا</h4>
                     <p>الإحلاص – الاستقامة – العدل - المسؤولية المجتمعية - الإبداع – المشورة</p>
                 </div>
 
                 <div
-                    class="grid scale-[1.2] shadow-2xl justify-items-center align-items-center bg-[#D4E5EA] px-20 py-5 lg:py-8  text-center rounded-[20px] text-theme-purple">
+                    class="grid lg:scale-[1.2] scale-[1.1] shadow-2xl justify-items-center align-items-center bg-[#D4E5EA] sm:px-20 px-5 py-5 lg:py-8  text-center rounded-[20px] text-theme-purple">
                     <div class="icon mb-4"><img src="{{asset('images/home/eye.svg')}}" alt="eye"></div>
                     <h4 class="text-[29px] font-semibold mb-5">رؤيتنا</h4>
                     <p>مجمع تربوي علمي متميز ضمن منظومة
@@ -84,7 +84,7 @@
                 </div>
 
                 <div
-                    class="grid justify-items-center align-items-center bg-primary px-20 py-5 lg:py-8  text-center rounded-[20px] text-white">
+                    class="grid justify-items-center align-items-center bg-primary sm:px-20 px-5 py-5 lg:py-8  text-center rounded-[20px] text-white">
                     <div class="icon mb-4"><img src="{{asset('images/home/diamond.svg')}}" alt="diamond"></div>
                     <h4 class="text-[29px] font-semibold mb-5">قيمنا</h4>
                     <p>الإحلاص – الاستقامة – العدل - المسؤولية المجتمعية - الإبداع – المشورة</p>
@@ -94,8 +94,8 @@
         {{--Facilites sections end  --}}
 
         {{--Summary section start--}}
-        <div class="container-fluid bg-primary my-20">
-            <div class="container py-10 px-10">
+        <div class="container-fluid bg-primary md:my-20 my-10">
+            <div class="container py-10 md:px-10 px-5">
                 <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-4">
 
                     <div class="bg-white rounded-[20px] grid grid-cols-3 gap-4 text-end p-4">
@@ -124,7 +124,7 @@
                             <p class="text-[23px] font-semibold">عدد المعلمين</p>
                         </div>
                         <div class="grid justify-content-center place-items-center">
-                            <img src="{{asset('images/home/graduation-hat-orange.svg')}}" alt="hat">
+                            <img src="{{asset('images/home/teacher.svg')}}" alt="hat">
                         </div>
                     </div>
 
@@ -134,7 +134,7 @@
                             <p class="text-[23px] font-semibold">إجمالي الطلاب</p>
                         </div>
                         <div class="grid justify-content-center place-items-center">
-                            <img src="{{asset('images/home/graduation-hat-orange.svg')}}" alt="table">
+                            <img src="{{asset('images/home/table.svg')}}" alt="table">
                         </div>
                     </div>
                 </div>
@@ -143,9 +143,9 @@
         {{--Summary section end  --}}
 
         {{--Services section start--}}
-        <div class="container px-10 my-20">
+        <div class="container md:px-10 px-5 md:my-20 my-10">
             <div class="text-center">
-                <h1 class="font-bold text-[40px] text-theme-purple mb-5">الخدمات الالكترونية</h1>
+                <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple mb-5">الخدمات الالكترونية</h1>
             </div>
 
 
@@ -225,7 +225,7 @@
                             class="bg-primary hover:bg-primary/80 transition-all  text-white font-bold py-4 px-10 rounded-full lg:absolute start-0 lg:block ">
                         المزيد من الأخبار
                     </button>
-                    <h1 class="font-bold text-[40px] text-theme-purple mb-5">الخدمات الالكترونية</h1>
+                    <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple mb-5">الخدمات الالكترونية</h1>
                 </div>
 
                 <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10">
@@ -288,7 +288,7 @@
         {{--Certificate section start--}}
         <div class="container lg:my-10 my-10 px-10">
             <div class="text-center">
-                <h1 class="font-bold text-[40px] text-theme-purple">الخدمات الالكترونية</h1>
+                <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple">الخدمات الالكترونية</h1>
             </div>
 
             <div class="certificate-slider-wrapper w-full">

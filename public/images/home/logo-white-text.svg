@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="234" height="144.043" viewBox="0 0 234 144.043">
+    <defs>
+        <linearGradient id="linear-gradient" x1="-1.613" y1="0.425" x2="2.637" y2="0.494" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#138986"/>
+            <stop offset="0.341" stop-color="#19bfbe"/>
+            <stop offset="1" stop-color="#19bfbe"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#138986"/>
+            <stop offset="0.489" stop-color="#19bfbe"/>
+            <stop offset="1" stop-color="#19bfbe"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1="0.5" y1="0.5" x2="0.561" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#19bfbe"/>
+            <stop offset="1" stop-color="#349594"/>
+        </linearGradient>
+    </defs>
+    <g id="Group_72" data-name="Group 72" transform="translate(-1433 -64.957)">
+        <text id="مدرسة_البيان_النموذجية_للبنات_بجدة" data-name="مدرسة البيان النموذجية للبنات بجدة" transform="translate(1550 187)" fill="#fff" font-size="15" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-107.849" y="0">مدرسة البيان النموذجية للبنات بجدة</tspan></text>
+        <text id="Albayan_Model_School_for_Girls" data-name="Albayan Model School for Girls" transform="translate(1550 205)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-116.738" y="0">Albayan Model School for Girls</tspan></text>
+        <g id="Group_73" data-name="Group 73" transform="translate(129.697 -10.618)">
+            <g id="Group_8" data-name="Group 8" transform="translate(1360.037 75.576)">
+                <circle id="Ellipse_8" data-name="Ellipse 8" cx="4.367" cy="4.367" r="4.367" transform="translate(23.925 46.313)" fill="#19bfbe"/>
+                <path id="Rectangle_16" data-name="Rectangle 16" d="M10.312,0h0a0,0,0,0,1,0,0V60.039A10.312,10.312,0,0,1,0,70.352H0a0,0,0,0,1,0,0V10.312A10.312,10.312,0,0,1,10.312,0Z" transform="translate(110.748 0)" fill="#19bfbe"/>
+                <g id="Group_2" data-name="Group 2" transform="translate(68.614 55.758)">
+                    <circle id="Ellipse_9" data-name="Ellipse 9" cx="4.367" cy="4.367" r="4.367" transform="translate(19.36 27.034)" fill="#19bfbe"/>
+                    <circle id="Ellipse_10" data-name="Ellipse 10" cx="4.367" cy="4.367" r="4.367" transform="translate(8.825 33.338)" fill="#19bfbe"/>
+                    <circle id="Ellipse_11" data-name="Ellipse 11" cx="4.367" cy="4.367" r="4.367" transform="translate(0 38.551)" fill="#19bfbe"/>
+                    <path id="Rectangle_17" data-name="Rectangle 17" d="M10.312,0h0a0,0,0,0,1,0,0V24.062a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10.312A10.312,10.312,0,0,1,10.312,0Z" transform="translate(14.675 0)" fill="#19bfbe"/>
+                    <path id="Rectangle_18" data-name="Rectangle 18" d="M10.312,0h0a0,0,0,0,1,0,0V24.062a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10.312A10.312,10.312,0,0,1,10.312,0Z" transform="translate(1.209 7.529)" fill="#19bfbe"/>
+                </g>
+                <g id="Group_3" data-name="Group 3" transform="translate(0 5.291)">
+                    <path id="Rectangle_19" data-name="Rectangle 19" d="M0,0H10.312a0,0,0,0,1,0,0V44.175a0,0,0,0,1,0,0h0A10.312,10.312,0,0,1,0,33.862V0A0,0,0,0,1,0,0Z" transform="translate(4.793 8.786) rotate(-58.433)" fill="url(#linear-gradient)"/>
+                    <path id="Path_1" data-name="Path 1" d="M601.232,682.666l5.4-8.786,42.664,25.095-5.4,8.786Z" transform="translate(-601.213 -616.983)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+                    <path id="Rectangle_20" data-name="Rectangle 20" d="M0,0H10.312a0,0,0,0,1,0,0V55.373A10.312,10.312,0,0,1,0,65.686H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(10.312 65.686) rotate(-180)" fill="#19bfbe"/>
+                    <path id="Rectangle_21" data-name="Rectangle 21" d="M10.312,0h0a0,0,0,0,1,0,0V41.215a0,0,0,0,1,0,0h0A10.312,10.312,0,0,1,0,30.9V10.312A10.312,10.312,0,0,1,10.312,0Z" transform="translate(52.986 90.778) rotate(180)" fill="#19bfbe"/>
+                </g>
+                <g id="Group_4" data-name="Group 4" transform="translate(55.374 5.291)">
+                    <path id="Rectangle_22" data-name="Rectangle 22" d="M10.312,0h0a0,0,0,0,1,0,0V36.775a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10.312A10.312,10.312,0,0,1,10.312,0Z" transform="translate(16.859 28.038) rotate(-121.567)" fill="url(#linear-gradient-3)"/>
+                    <path id="Path_2" data-name="Path 2" d="M804.505,682.666l-5.4-8.786-42.664,25.095,5.4,8.786Z" transform="translate(-751.539 -616.983)" fill="#19bfbe" fill-rule="evenodd"/>
+                    <path id="Rectangle_23" data-name="Rectangle 23" d="M0,0H0A10.312,10.312,0,0,1,10.312,10.312V65.686a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(42.673 0)" fill="#19bfbe"/>
+                    <path id="Rectangle_24" data-name="Rectangle 24" d="M10.312,0h0a0,0,0,0,1,0,0V62.841a0,0,0,0,1,0,0h0A10.312,10.312,0,0,1,0,52.529V10.312A10.312,10.312,0,0,1,10.312,0Z" transform="translate(0 27.937)" fill="#19bfbe"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
