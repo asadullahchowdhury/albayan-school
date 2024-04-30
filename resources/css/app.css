@@ -1,3 +1,89 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.owl-carousel {
+    .owl-dots {
+        position: relative;
+        gap: 10px;
+        display: flex;
+
+
+        .owl-dot {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid #212E84;
+            background: #FFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @media screen and (max-width: 767px){
+                width: 20px;
+                height: 20px;
+            }
+
+            &.active {
+                span {
+                    display: block;
+                    width: 13px;
+                    height: 13px;
+                    border-radius: 50%;
+                    background-color: #19BFBE;
+
+                    @media screen and (max-width: 767px){
+                        width: 7px;
+                        height: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    &.hero-slider {
+        .owl-dots {
+            position: absolute;
+            z-index: 33333;
+            gap: 10px;
+            left: 40px;
+            bottom: 25px;
+        }
+    }
+
+    &.certificate-slider {
+        .owl-dots {
+            justify-content: center;
+            /* z-index: 33333; */
+            top: 15px;
+            gap: 10px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .owl-nav {
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        height: 25px;
+        img{
+            width: 50px;
+            height: 25px;
+
+            @media screen and (max-width: 767px){
+
+            }
+        }
+        .owl-prev{
+            position: absolute;
+            left: -40px;
+        }.owl-next{
+            position: absolute;
+            right: -40px;
+        }
+    }
+
+
+}

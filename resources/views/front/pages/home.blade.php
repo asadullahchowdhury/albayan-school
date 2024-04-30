@@ -9,23 +9,27 @@
             <div class="container md:px-10 px-5 relative w-full h-full ">
 
                 <!--Hero slider start-->
-                <div class="hero-slider-wrapper w-full h-[45vh] overflow-hidden">
+                <div class="hero-slider-wrapper w-full">
                     <div class="owl-carousel w-full hero-slider">
-                        <div class="slider-item w-full bg-cover h-[435px] rounded-t-[50px]"
+                        <div class="slider-item w-full bg-cover bg-center leading-3 h-[435px] rounded-t-[50px] place-items-center flex flex-col justify-center"
                              style="background-image: url({{asset('images/slider-1.png')}})">
-
+                            <div class="hero-title font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
+                            <p class="text-theme-purple lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
                         </div>
-                        <div class="slider-item w-full bg-cover h-[435px] rounded-t-[50px]"
+                         <div class="slider-item w-full bg-cover bg-center leading-3 h-[435px] rounded-t-[50px] place-items-center flex flex-col justify-center"
                              style="background-image: url({{asset('images/slider-1.png')}})">
-
+                            <div class="hero-title font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
+                            <p class="text-theme-purple lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
                         </div>
-                        <div class="slider-item w-full bg-cover h-[435px] rounded-t-[50px]"
+                         <div class="slider-item w-full bg-cover bg-center leading-3 h-[435px] rounded-t-[50px] place-items-center flex flex-col justify-center"
                              style="background-image: url({{asset('images/slider-1.png')}})">
-
+                            <div class="hero-title font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
+                            <p class="text-theme-purple lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
                         </div>
-                        <div class="slider-item w-full bg-cover h-[435px] rounded-t-[50px]"
+                         <div class="slider-item w-full bg-cover bg-center leading-3 h-[435px] rounded-t-[50px] place-items-center flex flex-col justify-center"
                              style="background-image: url({{asset('images/slider-1.png')}})">
-
+                            <div class="hero-title font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
+                            <p class="text-theme-purple lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
                         </div>
                     </div>
                 </div>
@@ -225,7 +229,8 @@
                             class="bg-primary hover:bg-primary/80 transition-all  text-white font-bold py-4 md:px-10 px-3 rounded-full lg:absolute start-0 lg:block lg:order-1 order-2 sm:col-span-1 col-span-2 lg:mb-0 mb-5">
                         المزيد من الأخبار
                     </button>
-                    <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple mb-5 lg:order-2 order-1 col-span-3">الخدمات الالكترونية</h1>
+                    <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple mb-5 lg:order-2 order-1 col-span-3">
+                        الخدمات الالكترونية</h1>
                 </div>
 
                 <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-10 gap-5">
@@ -291,13 +296,16 @@
                 <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple">الخدمات الالكترونية</h1>
             </div>
 
-            <div class="certificate-slider-wrapper w-full">
+            <div class="certificate-slider-wrapper w-full sm:px-10 px-5">
                 <div class="certificate-slider owl-carousel grid gap-5 grid-cols-4">
                     <div class="each-certificate">
-                        <div class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
-                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-1.png')}}" alt="">
+                        <div
+                            class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
+                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-1.png')}}"
+                                 alt="">
                         </div>
-                        <div class="certificate-content min-h-[180px] pt-10 p-3 bg-[#EE3224] rounded-[20px] text-white text-end">
+                        <div
+                            class="certificate-content min-h-[180px] pt-10 p-3 bg-[#EE3224] rounded-[20px] text-white text-end">
                             <div class="font-bold text-[19px] mb-2">مسابقة روبوت عسير</div>
                             <p>
                                 فازت مدارس البيان بالمركز الثاني على مستوى المملكة في مسابقة روبوت عسير (VEX 2013)
@@ -306,10 +314,13 @@
                     </div>
 
                     <div class="each-certificate">
-                        <div class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
-                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-2.png')}}" alt="">
+                        <div
+                            class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
+                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-2.png')}}"
+                                 alt="">
                         </div>
-                        <div class="certificate-content min-h-[180px] pt-10 p-3 bg-[#EF6F21] rounded-[20px] text-white text-end">
+                        <div
+                            class="certificate-content min-h-[180px] pt-10 p-3 bg-[#EF6F21] rounded-[20px] text-white text-end">
                             <div class="font-bold text-[19px] mb-2">شهادة الآيزو</div>
                             <p>
                                 حصول البيان على تجديد شهادة الآبزو لمدة 3 سنوات
@@ -319,10 +330,13 @@
                     </div>
 
                     <div class="each-certificate">
-                        <div class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
-                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-3.png')}}" alt="">
+                        <div
+                            class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
+                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-3.png')}}"
+                                 alt="">
                         </div>
-                        <div class="certificate-content min-h-[180px] pt-10 p-3 bg-[#7E7E7E] rounded-[20px] text-white text-end">
+                        <div
+                            class="certificate-content min-h-[180px] pt-10 p-3 bg-[#7E7E7E] rounded-[20px] text-white text-end">
                             <div class="font-bold text-[19px] mb-2">مسابقة روبوت عسير</div>
                             <p>
                                 حصول البيان على شهادة الاعتماد
@@ -333,10 +347,77 @@
                     </div>
 
                     <div class="each-certificate">
-                        <div class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
-                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-4.png')}}" alt="">
+                        <div
+                            class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
+                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-4.png')}}"
+                                 alt="">
                         </div>
-                        <div class="certificate-content min-h-[180px] pt-10 p-3 bg-[#5A4643] rounded-[20px] text-white text-end">
+                        <div
+                            class="certificate-content min-h-[180px] pt-10 p-3 bg-[#5A4643] rounded-[20px] text-white text-end">
+                            <div class="font-bold text-[19px] mb-2">مسابقة روبوت عسير</div>
+                            <p>
+                                بجائزة التربية والتعليم للتميز
+                                عام 1432هـ - 2011م
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="each-certificate">
+                        <div
+                            class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
+                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-1.png')}}"
+                                 alt="">
+                        </div>
+                        <div
+                            class="certificate-content min-h-[180px] pt-10 p-3 bg-[#EE3224] rounded-[20px] text-white text-end">
+                            <div class="font-bold text-[19px] mb-2">مسابقة روبوت عسير</div>
+                            <p>
+                                فازت مدارس البيان بالمركز الثاني على مستوى المملكة في مسابقة روبوت عسير (VEX 2013)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="each-certificate">
+                        <div
+                            class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
+                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-2.png')}}"
+                                 alt="">
+                        </div>
+                        <div
+                            class="certificate-content min-h-[180px] pt-10 p-3 bg-[#EF6F21] rounded-[20px] text-white text-end">
+                            <div class="font-bold text-[19px] mb-2">شهادة الآيزو</div>
+                            <p>
+                                حصول البيان على تجديد شهادة الآبزو لمدة 3 سنوات
+                                2022 - 2025
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="each-certificate">
+                        <div
+                            class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
+                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-3.png')}}"
+                                 alt="">
+                        </div>
+                        <div
+                            class="certificate-content min-h-[180px] pt-10 p-3 bg-[#7E7E7E] rounded-[20px] text-white text-end">
+                            <div class="font-bold text-[19px] mb-2">مسابقة روبوت عسير</div>
+                            <p>
+                                حصول البيان على شهادة الاعتماد
+                                الأكاديمي لمدة 5 سنوات
+                                2023 - 2028
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="each-certificate">
+                        <div
+                            class="certificate-img rounded-[20px] p-3 bg-[#EFF6F8] grid place-items-center mx-5 relative top-[35px]">
+                            <img class="w-[165px] h-[100px] object-contain" src="{{asset('images/certificate-4.png')}}"
+                                 alt="">
+                        </div>
+                        <div
+                            class="certificate-content min-h-[180px] pt-10 p-3 bg-[#5A4643] rounded-[20px] text-white text-end">
                             <div class="font-bold text-[19px] mb-2">مسابقة روبوت عسير</div>
                             <p>
                                 بجائزة التربية والتعليم للتميز
@@ -366,20 +447,24 @@
             $('.certificate-slider').owlCarousel({
                 loop: true,
                 margin: 10,
-                nav: false,
+                nav: true,
                 dots: true,
-                responsive:{
-                    0:{
-                        items:1
+                navText:[
+                    `<img src="{{asset('images/home/chevron-p.svg')}}" alt=""/>`,
+                    `<img class="rotate-180" src="{{asset('images/home/chevron-p.svg')}}" alt=""/>`
+                ],
+                responsive: {
+                    0: {
+                        items: 1
                     },
-                    600:{
-                        items:2
+                    600: {
+                        items: 2
                     },
-                    1023:{
-                        items:3
+                    1023: {
+                        items: 3
                     },
-                    1024:{
-                        items:4
+                    1024: {
+                        items: 4
                     }
                 }
             })
