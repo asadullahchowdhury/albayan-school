@@ -3,12 +3,12 @@
 
     <div class="home">
 
-        {{--Hero section start--}}
+        <!--Hero section start-->
         <div class="hero-section pt-[280px] w-full md:h-[75vh] bg-bottom bg-cover bg-no-repeat"
              style="background-image: url({{asset('images/hero-bg.png')}})">
             <div class="container md:px-10 px-5 relative w-full h-full ">
 
-                {{--Hero slider start--}}
+                <!--Hero slider start-->
                 <div class="hero-slider-wrapper w-full h-[45vh] overflow-hidden">
                     <div class="owl-carousel w-full hero-slider">
                         <div class="slider-item w-full bg-cover h-[435px] rounded-t-[50px]"
@@ -30,7 +30,7 @@
                     </div>
                 </div>
 
-                {{--Hero slider end  --}}
+                <!--Hero slider end  -->
 
 
                 <div
@@ -43,9 +43,9 @@
                 </div>
             </div>
         </div>
-        {{--Hero section end  --}}
+        <!--Hero section end  -->
 
-        {{--Description section start--}}
+        <!--Description section start-->
         <div class="container md:px-10 px-5 md:my-20 my-10">
             <div class="grid xl:grid-cols-2 xl:gap-10 gap-5">
                 <div class="">
@@ -63,9 +63,9 @@
                 </p>
             </div>
         </div>
-        {{--Description section end  --}}
+        <!--Description section end  -->
 
-        {{--Facilites sections start--}}
+        <!--Facilities sections start-->
         <div class="container md:my-20 xl:px-0 px-10">
             <div class="grid lg:grid-cols-3 md:mt-20 mt-10">
                 <div
@@ -91,9 +91,9 @@
                 </div>
             </div>
         </div>
-        {{--Facilites sections end  --}}
+        <!--Facilities sections end  -->
 
-        {{--Summary section start--}}
+        <!--Summary section start-->
         <div class="container-fluid bg-primary md:my-20 my-10">
             <div class="container py-10 md:px-10 px-5">
                 <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-4">
@@ -140,9 +140,9 @@
                 </div>
             </div>
         </div>
-        {{--Summary section end  --}}
+        <!--Summary section end  -->
 
-        {{--Services section start--}}
+        <!--Services section start-->
         <div class="container md:px-10 px-5 md:my-20 my-10">
             <div class="text-center">
                 <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple mb-5">الخدمات الالكترونية</h1>
@@ -150,7 +150,7 @@
 
 
             <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-4">
-                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] bg-[#F0C24B] text-end">
+                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] place-items-center bg-[#F0C24B] text-end">
                     <div class="bg-white w-[80px] h-[80px] rounded-full grid place-items-center">
                         <img src="{{asset('images/home/result.svg')}}" alt="result">
                     </div>
@@ -158,7 +158,7 @@
                         الدراسية</h1>
                 </div>
 
-                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] bg-[#E16363] text-end">
+                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] place-items-center bg-[#E16363] text-end">
                     <div class="bg-white w-[80px] h-[80px] rounded-full grid place-items-center">
                         <img src="{{asset('images/home/library.svg')}}" alt="library">
                     </div>
@@ -166,7 +166,7 @@
                         الإلكترونية</h1>
                 </div>
 
-                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] bg-[#E9A870] text-end">
+                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] place-items-center bg-[#E9A870] text-end">
                     <div class="bg-white w-[80px] h-[80px] rounded-full grid place-items-center">
                         <img src="{{asset('images/home/book.svg')}}" alt="book">
                     </div>
@@ -174,7 +174,7 @@
                         التعليمية</h1>
                 </div>
 
-                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] bg-[#B5D56A] text-end">
+                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] place-items-center bg-[#B5D56A] text-end">
                     <div class="bg-white w-[80px] h-[80px] rounded-full grid place-items-center">
                         <img src="{{asset('images/home/user-green.svg')}}" alt="user-green">
                     </div>
@@ -182,7 +182,7 @@
                         الإلكتروني</h1>
                 </div>
 
-                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] bg-primary text-end">
+                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] place-items-center bg-primary text-end">
                     <div class="bg-white w-[80px] h-[80px] rounded-full grid place-items-center">
                         <img src="{{asset('images/home/flag.svg')}}" alt="flag">
                     </div>
@@ -190,7 +190,7 @@
                         Diploma</h1>
                 </div>
 
-                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] bg-theme-purple text-end">
+                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] place-items-center bg-theme-purple text-end">
                     <div class="bg-white w-[80px] h-[80px] rounded-full grid place-items-center">
                         <img src="{{asset('images/home/globe.svg')}}" alt="globe">
                     </div>
@@ -198,7 +198,7 @@
                         Department</h1>
                 </div>
 
-                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] bg-[#E87CD1] text-end">
+                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] place-items-center bg-[#E87CD1] text-end">
                     <div class="bg-white w-[80px] h-[80px] rounded-full grid place-items-center">
                         <img src="{{asset('images/home/graduation-hat-pink.svg')}}" alt="graduation-hat-pink">
                     </div>
@@ -206,7 +206,7 @@
                 </div>
 
 
-                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] bg-[#84BED6] text-end">
+                <div class="p-3 grid grid-cols-3 text-white rounded-[36px] place-items-center bg-[#84BED6] text-end">
                     <div class="bg-white w-[80px] h-[80px] rounded-full grid place-items-center">
                         <img src="{{asset('images/home/question.svg')}}" alt="question">
                     </div>
@@ -214,23 +214,23 @@
                 </div>
             </div>
         </div>
-        {{--Services section end  --}}
+        <!--Services section end  -->
 
-        {{--Blog/ News section start--}}
-        <div class="container-fluid p-10 bg-[#DAEBF0]">
-            <div class="container p-10">
+        <!--Blog/ News section start-->
+        <div class="container-fluid md:p-10 p-5 bg-[#DAEBF0]">
+            <div class="container md:p-10">
 
-                <div class="text-center relative">
+                <div class="text-center relative lg:block grid grid-cols-3">
                     <button type="button"
-                            class="bg-primary hover:bg-primary/80 transition-all  text-white font-bold py-4 px-10 rounded-full lg:absolute start-0 lg:block ">
+                            class="bg-primary hover:bg-primary/80 transition-all  text-white font-bold py-4 md:px-10 px-3 rounded-full lg:absolute start-0 lg:block lg:order-1 order-2 sm:col-span-1 col-span-2 lg:mb-0 mb-5">
                         المزيد من الأخبار
                     </button>
-                    <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple mb-5">الخدمات الالكترونية</h1>
+                    <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple mb-5 lg:order-2 order-1 col-span-3">الخدمات الالكترونية</h1>
                 </div>
 
-                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10">
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-10 gap-5">
 
-                    <div class="each-blog rounded-[36px] group">
+                    <div class="each-blog rounded-[36px] group lg:mb-0 mb-[-30px]">
                         <div class="blog-content rounded-[36px] overflow-hidden relative">
                             <img
                                 class="w-full group-hover:scale-[1.2] duration-500 transition-all h-[320px] object-cover"
@@ -247,7 +247,7 @@
                         </button>
                     </div>
 
-                    <div class="each-blog rounded-[36px] group">
+                    <div class="each-blog rounded-[36px] group lg:mb-0 mb-[-30px]">
                         <div class="blog-content rounded-[36px] overflow-hidden relative">
                             <img
                                 class="w-full group-hover:scale-[1.2] duration-500 transition-all h-[320px] object-cover"
@@ -259,12 +259,12 @@
                         </div>
 
                         <button type="button"
-                                class="bg-[#2E84B7] hover:bg-[#CF874C] transition-all text-white font-bold py-4 px-10 rounded-full w-full relative top-[-30px]">
+                                class="bg-[#2E84B7] hover:bg-[#2c78a5] transition-all text-white font-bold py-4 px-10 rounded-full w-full relative top-[-30px]">
                             الاختبارات الوطنية (نافس)
                         </button>
                     </div>
 
-                    <div class="each-blog rounded-[36px] group">
+                    <div class="each-blog rounded-[36px] group lg:mb-0 mb-[-30px]">
                         <div class="blog-content rounded-[36px] overflow-hidden relative">
                             <img
                                 class="w-full group-hover:scale-[1.2] duration-500 transition-all h-[320px] object-cover"
@@ -276,16 +276,16 @@
                         </div>
 
                         <button type="button"
-                                class="bg-[#E87CD1] hover:bg-[#CF874C] transition-all text-white font-bold py-4 px-10 rounded-full w-full relative top-[-30px]">
+                                class="bg-[#E87CD1] hover:bg-[#d46cbe] transition-all text-white font-bold py-4 px-10 rounded-full w-full relative top-[-30px]">
                             جدول الاختبار النصفي
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-        {{--Blog/ News section end  --}}
+        <!--Blog/ News section end  -->
 
-        {{--Certificate section start--}}
+        <!--Certificate section start-->
         <div class="container lg:my-10 my-10 px-10">
             <div class="text-center">
                 <h1 class="font-bold md:text-[40px] text-[30px] text-theme-purple">الخدمات الالكترونية</h1>
@@ -348,7 +348,7 @@
             </div>
 
         </div>
-        {{--Certificate section end  --}}
+        <!--Certificate section end  -->
 
 
     </div>
