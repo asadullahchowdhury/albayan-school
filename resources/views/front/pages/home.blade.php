@@ -13,23 +13,23 @@
                     <div class="owl-carousel w-full hero-slider">
                         <div class="slider-item w-full bg-cover bg-center leading-3 h-[435px] rounded-t-[50px] place-items-center flex flex-col justify-center"
                              style="background-image: url({{asset('images/slider-1.png')}})">
-                            <div class="hero-title font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
-                            <p class="text-theme-purple lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
+                            <div class="hero-title rb-bold font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
+                            <p class="text-theme-purple rb-bold lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
                         </div>
                          <div class="slider-item w-full bg-cover bg-center leading-3 h-[435px] rounded-t-[50px] place-items-center flex flex-col justify-center"
                              style="background-image: url({{asset('images/slider-1.png')}})">
-                            <div class="hero-title font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
-                            <p class="text-theme-purple lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
+                            <div class="hero-title rb-bold font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
+                            <p class="text-theme-purple rb-bold lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
                         </div>
                          <div class="slider-item w-full bg-cover bg-center leading-3 h-[435px] rounded-t-[50px] place-items-center flex flex-col justify-center"
                              style="background-image: url({{asset('images/slider-1.png')}})">
-                            <div class="hero-title font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
-                            <p class="text-theme-purple lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
+                            <div class="hero-title rb-bold font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
+                            <p class="text-theme-purple rb-bold lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
                         </div>
                          <div class="slider-item w-full bg-cover bg-center leading-3 h-[435px] rounded-t-[50px] place-items-center flex flex-col justify-center"
                              style="background-image: url({{asset('images/slider-1.png')}})">
-                            <div class="hero-title font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
-                            <p class="text-theme-purple lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
+                            <div class="hero-title rb-bold font-bold lg:text-9xl md:text-8xl text-7xl text-[#B5D56A]">40</div>
+                            <p class="text-theme-purple rb-bold lg:text-[38px] md:text-[28px] font-bold">عامًا من العطاء</p>
                         </div>
                     </div>
                 </div>

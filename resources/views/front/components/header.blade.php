@@ -15,12 +15,12 @@
             </button>
 
             <button
-                class="bg-theme-purple hover:bg-theme-purple/90 ms-4 text-white font-bold py-2 sm:px-10 px-3 sm:text-base text-sm rounded-full transition-colors duration-300">
+                class="bg-theme-purple hover:bg-theme-purple/90 ms-4 text-white font-bold py-2 sm:px-10 px-3 sm:text-base text-sm rounded-full transition-colors duration-300 kufi-bold">
                 اتصل بنا
             </button>
 
             <button
-                class="bg-theme-purple hover:bg-theme-purple/90 ms-2 text-white font-bold py-2 sm:px-10 px-3 sm:text-base text-sm rounded-full transition-colors duration-300">
+                class="bg-theme-purple hover:bg-theme-purple/90 ms-2 text-white font-bold py-2 sm:px-10 px-3 sm:text-base text-sm rounded-full transition-colors duration-300 kufi-bold">
                 الموهوبات
             </button>
 
@@ -32,7 +32,7 @@
             <div class="xl:col-span-9 lg:col-span-10 col-span-3 xl:mt-5">
                 <div class="lg:grid hidden grid-cols-7 xl:gap-4 gap-3">
                     {{--Facilities--}}
-                    <a href="javascript:void(0)" class="header-item group relative justify-items-center grid">
+                    <a href="javascript:void(0)" class="header-item rb-bold group relative justify-items-center grid">
                         <div
                             class="bg-[#E87CD1] 2xl:w-[65px] xl:w-[60px] 2xl:h-[65px]  xl:h-[60px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center">
                             <img class="xl:w-[35px] xl:h-[35px] w-[25px] h-[25px]"
@@ -48,7 +48,7 @@
                     </a>
 
                     {{--Study--}}
-                    <a href="javascript:void(0)" class="header-item group relative justify-items-center grid">
+                    <a href="javascript:void(0)" class="header-item rb-bold group relative justify-items-center grid">
                         <div
                             class="bg-theme-purple 2xl:w-[65px] xl:w-[60px] 2xl:h-[65px]  xl:h-[60px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center">
                             <img class="xl:w-[35px] xl:h-[35px] w-[25px] h-[25px]"
@@ -64,7 +64,7 @@
                     </a>
 
                     {{--Honors--}}
-                    <a href="javascript:void(0)" class="header-item group relative justify-items-center grid">
+                    <a href="javascript:void(0)" class="header-item rb-bold group relative justify-items-center grid">
                         <div
                             class="bg-[#E16363] 2xl:w-[65px] xl:w-[60px] 2xl:h-[65px]  xl:h-[60px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center">
                             <img class="xl:w-[35px] xl:h-[35px] w-[25px] h-[25px]"
@@ -81,7 +81,7 @@
                     </a>
 
                     {{--Admission--}}
-                    <a href="javascript:void(0)" class="header-item group relative justify-items-center grid">
+                    <a href="javascript:void(0)" class="header-item rb-bold group relative justify-items-center grid">
                         <div
                             class="bg-theme-purple 2xl:w-[65px] xl:w-[60px] 2xl:h-[65px]  xl:h-[60px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center">
                             <img class="xl:w-[35px] xl:h-[35px] w-[25px] h-[25px]"
@@ -98,7 +98,7 @@
                     </a>
 
                     {{--Projects--}}
-                    <a href="javascript:void(0)" class="header-item group relative justify-items-center grid">
+                    <a href="javascript:void(0)" class="header-item rb-bold group relative justify-items-center grid">
                         <div
                             class="bg-[#F1B330] 2xl:w-[65px] xl:w-[60px] 2xl:h-[65px]  xl:h-[60px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center">
                             <img class="xl:w-[35px] xl:h-[35px] w-[25px] h-[25px]"
@@ -115,7 +115,7 @@
                     </a>
 
                     {{--Grades--}}
-                    <a href="javascript:void(0)" class="header-item group relative justify-items-center grid">
+                    <a href="javascript:void(0)" class="header-item rb-bold group relative justify-items-center grid">
                         <div
                             class="bg-[#B5D56A] 2xl:w-[65px] xl:w-[60px] 2xl:h-[65px]  xl:h-[60px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center">
                             <img class="xl:w-[35px] xl:h-[35px] w-[25px] h-[25px]"
@@ -132,7 +132,7 @@
                     </a>
 
                     {{--Statement--}}
-                    <a href="javascript:void(0)" class="header-item group relative justify-items-center grid">
+                    <a href="javascript:void(0)" class="header-item rb-bold group relative justify-items-center grid">
                         <div
                             class="bg-[#84BED6] 2xl:w-[65px] xl:w-[60px] 2xl:h-[65px]  xl:h-[60px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center">
                             <img class="xl:w-[35px] xl:h-[35px] w-[25px] h-[25px]"
@@ -185,7 +185,7 @@
         </div>
         <ul class="grid sm:grid-cols-3 justify-center grid-cols-2 gap-5 overflow-auto p-4">
             {{--Facilities--}}
-            <a href="javascript:void(0)" class="header-item mb-3 group relative justify-items-center grid">
+            <a href="javascript:void(0)" class="header-item rb-bold mb-3 group relative justify-items-center grid">
                 <div class="bg-[#E87CD1] w-[50px] h-[50px] rounded-full flex justify-center items-center">
                     <img class="w-[25px] h-[25px]" src="{{asset('images/home/facilities.svg')}}" alt="fac">
                 </div>
@@ -195,7 +195,7 @@
             </a>
 
             {{--Study--}}
-            <a href="javascript:void(0)" class="header-item mb-3 group relative justify-items-center grid">
+            <a href="javascript:void(0)" class="header-item rb-bold mb-3 group relative justify-items-center grid">
                 <div class="bg-theme-purple w-[50px] h-[50px] rounded-full flex justify-center items-center">
                     <img class="xl:25px] h-[25px]" src="{{asset('images/home/study.svg')}}" alt="study">
                 </div>
@@ -205,7 +205,7 @@
             </a>
 
             {{--Honors--}}
-            <a href="javascript:void(0)" class="header-item mb-3 group relative justify-items-center grid">
+            <a href="javascript:void(0)" class="header-item rb-bold mb-3 group relative justify-items-center grid">
                 <div class="bg-[#E16363] w-[50px] h-[50px] rounded-full flex justify-center items-center">
                     <img class="w-[25px] h-[25px]" src="{{asset('images/home/honors.svg')}}" alt="honors">
                 </div>
@@ -216,7 +216,7 @@
             </a>
 
             {{--Admission--}}
-            <a href="javascript:void(0)" class="header-item mb-3 group relative justify-items-center grid">
+            <a href="javascript:void(0)" class="header-item rb-bold mb-3 group relative justify-items-center grid">
                 <div class="bg-theme-purple w-[50px] h-[50px] rounded-full flex justify-center items-center">
                     <img class="xl:25px] h-[25px]" src="{{asset('images/home/admission.svg')}}" alt="admission">
                 </div>
@@ -227,7 +227,7 @@
             </a>
 
             {{--Projects--}}
-            <a href="javascript:void(0)" class="header-item mb-3 group relative justify-items-center grid">
+            <a href="javascript:void(0)" class="header-item rb-bold mb-3 group relative justify-items-center grid">
                 <div class="bg-[#F1B330] w-[50px] h-[50px] rounded-full flex justify-center items-center">
                     <img class="w-[25px] h-[25px]" src="{{asset('images/home/projects.svg')}}" alt="projects">
                 </div>
@@ -238,7 +238,7 @@
             </a>
 
             {{--Grades--}}
-            <a href="javascript:void(0)" class="header-item mb-3 group relative justify-items-center grid">
+            <a href="javascript:void(0)" class="header-item rb-bold mb-3 group relative justify-items-center grid">
                 <div class="bg-[#B5D56A] w-[50px] h-[50px] rounded-full flex justify-center items-center">
                     <img class="w-[25px] h-[25px]" src="{{asset('images/home/facilities.svg')}}" alt="fac">
                 </div>
@@ -249,7 +249,7 @@
             </a>
 
             {{--Statement--}}
-            <a href="javascript:void(0)" class="header-item mb-3 group relative justify-items-center grid ">
+            <a href="javascript:void(0)" class="header-item rb-bold mb-3 group relative justify-items-center grid ">
                 <div class="bg-[#84BED6] w-[50px] h-[50px] rounded-full flex justify-center items-center">
                     <img class="w-[25px] h-[25px]" src="{{asset('images/home/statement.svg')}}" alt="statement">
                 </div>
